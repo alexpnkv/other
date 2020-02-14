@@ -3,8 +3,7 @@ import os
 
 def main():
     """renames all files in the folder according to the pattern: '{collection name} #{number in collection}'"""
-    answer = 'да'
-    while answer in ['да', 'Да', 'ДА']:
+    while True:
         print('Enter the full path to the folder with your collection: ', end='')
         folder_full_path = input()
         print('Enter collection name: ', end='')
@@ -29,5 +28,6 @@ def main():
             os.rename(old_file, new_file)
             count += 1
 
-        print('Would you like to continue editing?\nEnter "yes" or "no":')
-        answer = input()
+        print('Would you like to continue editing?\nEnter "Yes" or "No":')
+        if input() == "No":
+            break
