@@ -2,6 +2,6 @@
   "ecb": {
     "name": "string",
     "s8": "string",
-    "r2": "integer",
+    "r2": "integer"
   }
 }
