@@ -1,7 +1,8 @@
 {
-  "ecb": {
-    "name": "string",
-    "s8": "string",
-    "r2": "integer"
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date"
   }
 }
