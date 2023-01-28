@@ -1,6 +1,7 @@
 """Given an n x n array, return the array elements arranged from outermost elements to the middle element, traveling clockwise."""
 
 def snail(snail_map):
+    """змейка"""
     answer = []
     matrix_size = len(snail_map[0])
 
