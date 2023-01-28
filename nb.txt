@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 nb filed
-=======
-nb file
-nb file again
->>>>>>> 8cd26f1 (2 lines)
+nb filed again
